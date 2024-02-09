@@ -1,0 +1,19 @@
+footer {
+    padding-top: 50px;
+}
+footer i {
+    font-size: 2em;
+}
+
+.footer_div {
+    text-align: center;
+}
+
+@media(min-device-width: 1024px) {
+    .footer_div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 15px;
+    }
+}

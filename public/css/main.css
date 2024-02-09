@@ -1,0 +1,69 @@
+.imagen-banner {
+    height: 100%;
+    width: 100%;
+}
+
+.imagen {
+    height: 90%;
+    width: 90%;
+}
+
+main {
+    background-color: #EBEBEB;
+}
+
+header p {
+    text-align: center;
+}
+
+.titular {
+    font-size: 24px;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+.precio {
+    font-size: 18px;
+}
+.descuento {
+    font-size: 16px;
+    color: #39B54A;
+}
+.descripcion {
+    font-size: 16px;
+}
+
+.main__section__article {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 10px;
+}
+.article_desc {
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+@media(min-device-width: 768px) {
+    .main__section__article {
+        display: inline-block;
+        width: 350px;
+        }
+        .imagen {
+            width: 100%;
+        }
+}
+
+@media(min-device-width: 1024px) {
+
+    .main__section__article {
+    display: inline-block;
+    width: 300px;
+    }
+    .imagen {
+        width: 100%;
+    }
+}
+
+
